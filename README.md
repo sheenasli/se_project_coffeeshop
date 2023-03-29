@@ -1,6 +1,6 @@
 # Practicum Coffee Shop
 
-This is the second project of the Web Development program at Practicum. It was created using HTML and CSS, based on the design brief.
+This is the second project of the Web Development program at Practicum. It was created using HTML and CSS, based on the design brief. It includes a full functioining page with recipes, menus, reservations, and about section. 
 
 ## Project features
 
@@ -13,4 +13,8 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+-add custom loading widget while page is loading 
+-add a stylized prompt that pops up after completing the form or reservation
+-add a coffee bean logo under/next to the recipes where you can click to download the recipe to use yourself
+-have animation effect when hovering over coffee shop image. Animation like steam coming from coffee station
+
