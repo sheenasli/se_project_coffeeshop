@@ -94,7 +94,66 @@
         </section>
 
         <section class="menu" id="section-menu"></section>
-        <section class="reservation" id="section-reservations"></section>
+
+        <section class="reservation" id="section-reservations">
+          <div class="form">
+            <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+              class="form__input"
+              type="text"
+              id="full-name"
+              name="full-name"
+              placeholder="Name Surname"
+              required
+              />
+              <label for="number-of-guests" class="form__label">Number of guests *</label>
+              <input
+              class="form__input"
+              type="number"
+              id="number-of-guests"
+              name="number-of-guests"
+              min="1"
+              max="8"
+              placeholder="1-8"
+              required
+              />
+              <label for="reservation-time" class="form__label">Date & time *</label>
+              <input
+              class="form__input"
+              type="datetime-local"
+              id="reservation-time"
+              name="reservation-time"
+              required
+              />
+              <label for="email" class="form__label">Your email *</label>
+              <input
+              class="form__input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email@email.com"
+              required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button type="submit" class="form__button">Book a table</button>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="agree-to-terms" class="form__label">
+                <input
+                class="form__checkbox"
+                type="checkbox"
+                name="agree-to-terms"
+                id="agree-to-terms"
+                />I agree with the terms of use</label>
+            </fieldset>
+          </form>
+          </div>
+        </section>
+
         <section class="about" id="section-contacts"></section>
       </main>
 
