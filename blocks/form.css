@@ -1,34 +1,43 @@
 .form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .form__fieldset {
 border: none;
 display: flex;
 flex-direction: column;
+padding: 0;
 }
 
 .form__label {
   margin-bottom: 8px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
 
-.form__input {
-  border-radius: 4px;
-  width: 385px;
-  height: 60px;
-  margin-bottom: 32px;
+.form__label:last-of-type {
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-::placeholder {
-  font-family: Inter;
+.form__input {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  max-width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+  padding: 0 20px 0;
+}
+
+form__input::placeholder {
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -37,8 +46,9 @@ flex-direction: column;
 }
 
 .form__button {
+  color: #fff;
   display: block;
-  margin: 32px auto 32px;
+  margin: 0px auto 32px;
   background-color: #2f80ed;
   border-radius: 4px;
   transition: opacity .7s ease-in-out;
@@ -46,7 +56,7 @@ flex-direction: column;
   max-width: 385px;
   width: 100%;
   height: 60px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -57,7 +67,7 @@ flex-direction: column;
   opacity: .7;
 }
 
-input[type=checkbox][name=agree-to-terms] {
+.form__input[type=checkbox][name=agree-to-terms] {
   border-radius: 2px;
   display: inline;
   width: 20px;
@@ -66,8 +76,9 @@ input[type=checkbox][name=agree-to-terms] {
   margin-right: 12px;
 }
 
-input[type=checkbox][name=agree-to-terms]:checked {
+.form__input[type=checkbox][name=agree-to-terms]:checked {
   background-color: #2F80ED;
-  background-image: url(..images/check.svg);
+  background-image: url(../images/check.svg);
+  appearance: none;
 }
 
