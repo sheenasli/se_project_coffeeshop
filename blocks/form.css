@@ -1,5 +1,9 @@
 .form {
-
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .form__fieldset {
@@ -10,18 +14,13 @@ padding: 0;
 }
 
 .form__label {
+  display: block;
   margin-bottom: 8px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-}
-
-.form__label:last-of-type {
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .form__input {
