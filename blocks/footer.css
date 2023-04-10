@@ -11,18 +11,12 @@
   align-items: flex-start;
 }
 
-.footer__social-column {
-
-}
-
 .footer__logo {
   height: 21px;
   width: 116px;
 }
 
 .footer__social-heading {
-  display: flex;
-  justify-content: flex-end;
   margin-bottom: 20px;
   margin-top: 0px;
   font-family: "Inter", Arial, sans-serif;
@@ -50,7 +44,7 @@
 
 .footer__social-link {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   color: #fff;
   transition: color .5s;
   text-decoration: none;
