@@ -1,7 +1,5 @@
 .form {
 box-sizing: border-box;
-flex-direction: column;
-justify-content: center;
 }
 
 .form__fieldset {
@@ -23,8 +21,10 @@ padding: 0px;
 }
 
 .form__label_checkbox {
+  display: flex;
   margin: 0px;
   text-align: center;
+  align-items: flex-end;
 }
 
 .form__input {
@@ -80,9 +80,14 @@ padding: 0px;
   margin-right: 12px;
 }
 
-.form__checkbox:active {
+.form__checkbox:checked {
   background-color: #2F80ED;
   background-image: url(../images/check.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2px;
   appearance: none;
+
 }
 

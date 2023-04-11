@@ -57,6 +57,10 @@
 }
 
 .header__footer {
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -66,11 +70,10 @@
   position: absolute;
   bottom: 40px;
   width: 100%;
-  left: 80px;
   box-sizing: border-box;
 }
 
-.header__footer_list {
+.header__paragraphs {
 display: flex;
 flex-direction: column;
 }
@@ -79,11 +82,4 @@ flex-direction: column;
 margin: 0px;
 }
 
-.header__paragraph_address {
-position: absolute;
-right: 80px;
-bottom: 0px;
-margin: 0px;
-padding-right: 80px;
-}
 

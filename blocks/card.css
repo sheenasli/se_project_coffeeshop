@@ -14,6 +14,9 @@
 .card__list {
   padding: 0;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
 }
 
 .card__list-item {
