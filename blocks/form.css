@@ -25,6 +25,7 @@ padding: 0px;
   margin: 0px;
   text-align: center;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .form__input {
