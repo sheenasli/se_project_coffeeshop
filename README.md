@@ -18,3 +18,6 @@ This is the second project of the Web Development program at Practicum. It was c
 -add a coffee bean logo under/next to the recipes where you can click to download the recipe to use yourself
 -have animation effect when hovering over coffee shop image. Animation like steam coming from coffee station
 
+## Demo
+https://www.loom.com/share/fa4668bd017b49b9b8dcab74b7305174?sid=3642a0d5-1dab-43cb-9a60-3a00584493d9
+
