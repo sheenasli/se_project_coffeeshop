@@ -13,7 +13,7 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Links
 
-- The project can be seen live using this https://sheenasli.github.io/se_project_coffeeshop/
+- The project can be seen live using this [Link](https://sheenasli.github.io/se_project_coffeeshop/)
 
 ## Plan on improving the project
 
