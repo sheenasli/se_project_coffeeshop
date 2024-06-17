@@ -11,6 +11,10 @@ This is the second project of the Web Development program at Practicum. It was c
 - A custom form
 - CSS animation and transform
 
+## Links
+
+- The project can be seen live using this https://sheenasli.github.io/se_project_coffeeshop/
+
 ## Plan on improving the project
 
 -add custom loading widget while page is loading 
